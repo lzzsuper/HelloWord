@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class helloController {
     @RequestMapping("/index")
     public String sayHello(){
-        return "吕泽洲的HelloWord";
+        return "吕泽洲的HelloWord!";
     }
 
 }
