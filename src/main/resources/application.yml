@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    name: test  #????
+    url: jdbc:mysql://localhost:3306/test #url
+    username: zezhou  #???
+    password: lzz1234...  #??
+    driver-class-name: com.mysql.cj.jdbc.Driver  #???????
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #??????
+  type-aliases-package: com.example.test.bean #?????
+
