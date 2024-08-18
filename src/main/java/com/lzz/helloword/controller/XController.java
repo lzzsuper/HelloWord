@@ -8,6 +8,7 @@ public class XController {
     @RequestMapping("/X")
     public String xPrint() {
         System.out.println("Hello");
+        System.out.println("World");
         return "X";
 
     }
